@@ -18,7 +18,7 @@ const instructions = Platform.select({
 export default class App extends Component<{}> {
 
   componentDidMount() {
-    console.log('monto');
+    console.log('Did mount');
     PushNotification.configure({
 
       // (optional) Called when Token is generated (iOS and Android)
