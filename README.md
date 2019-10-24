@@ -9,3 +9,6 @@ Follow the steps in the tutorial to know how to change the sender Id property. T
 
 `npm install`
 `react-native run-android`
+
+## Notification example
+![](notification_example.png)

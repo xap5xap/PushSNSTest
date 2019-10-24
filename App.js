@@ -21,6 +21,7 @@ export default class App extends Component<{}> {
     console.log('Did mount');
     PushNotification.configure({
 
+
       // (optional) Called when Token is generated (iOS and Android)
       onRegister: function (token) {
         console.log('TOKEN:', token);
@@ -33,7 +34,7 @@ export default class App extends Component<{}> {
       },
 
       // ANDROID ONLY: GCM Sender ID (optional - not required for local notifications, but is need to receive remote push notifications)
-      senderID: "719007178572",
+      senderID: "",
 
       // IOS ONLY (optional): default: all - Permissions to register.
       permissions: {
